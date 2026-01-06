@@ -77,6 +77,19 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
   min-height: 100vh;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 18px;
+  }
 }
 
 ::selection {
@@ -701,13 +714,26 @@ a {
   gap: var(--spacing-sm);
 }
 
+@media (max-width: 768px) {
+  .loadout-footer {
+    padding: var(--spacing-lg);
+    padding-bottom: calc(var(--spacing-lg) + env(safe-area-inset-bottom, 0px));
+  }
+}
+
 .loadout-info {
   display: flex;
   align-items: center;
   gap: var(--spacing-xs);
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: 11px;
   color: var(--color-text-muted);
+}
+
+@media (max-width: 768px) {
+  .loadout-info {
+    font-size: 13px;
+  }
 }
 
 .loadout-info .icon {
@@ -715,9 +741,26 @@ a {
   height: 14px;
 }
 
+@media (max-width: 768px) {
+  .loadout-info .icon {
+    width: 16px;
+    height: 16px;
+  }
+}
+
 .loadout-footer .btn {
   width: 100%;
   justify-content: center;
+  min-height: 48px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .loadout-footer .btn {
+    min-height: 56px;
+    font-size: 16px;
+    padding: var(--spacing-md) var(--spacing-lg);
+  }
 }
 
 .loadout-overlay {
@@ -954,7 +997,7 @@ a {
   max-width: 600px;
   margin: 0 auto var(--spacing-lg);
   color: var(--color-text-dim);
-  font-size: clamp(0.75rem, 2vw, 1rem);
+  font-size: clamp(0.9rem, 2.5vw, 1.1rem);
   text-transform: uppercase;
   font-family: var(--font-mono);
   line-height: 1.8;
@@ -1604,7 +1647,7 @@ a {
   gap: var(--spacing-sm);
   color: var(--color-text-dim);
   font-family: var(--font-mono);
-  font-size: clamp(12px, 2vw, 14px);
+  font-size: clamp(13px, 2.5vw, 15px);
   line-height: 1.8;
 }
 
@@ -1752,7 +1795,7 @@ a {
 .maps-description {
   max-width: 400px;
   color: var(--color-text-muted);
-  font-size: clamp(10px, 2vw, 12px);
+  font-size: clamp(11px, 2.5vw, 13px);
   font-family: var(--font-mono);
   text-align: right;
   line-height: 1.6;
@@ -2060,7 +2103,7 @@ a {
   display: flex;
   gap: var(--spacing-sm);
   align-items: flex-start;
-  font-size: clamp(11px, 2vw, 13px);
+  font-size: clamp(12px, 2.5vw, 14px);
   font-family: var(--font-mono);
   color: var(--color-text-dim);
   transition: color var(--transition-fast);
@@ -2197,7 +2240,7 @@ a {
   max-width: 800px;
   margin: 0 auto;
   font-weight: 700;
-  font-size: clamp(12px, 2.5vw, 16px);
+  font-size: clamp(13px, 3vw, 17px);
   text-transform: uppercase;
   letter-spacing: -0.02em;
   line-height: 1.6;
