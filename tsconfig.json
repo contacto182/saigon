@@ -15,8 +15,8 @@
     "outDir": "./dist",
     "rootDir": "./ts",
     "removeComments": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true
   },
