@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="SAIGON AIRSOFT - Campo de airsoft recreativo en Bernal, Buenos Aires. Combate táctico, paquetes desde $22.000 ARS, equipamiento completo y mapas de 5 hectáreas. Reservá tu batalla hoy.">
+  <meta name="keywords" content="airsoft bernal, airsoft buenos aires, campo airsoft argentina, saigon airsoft, combate airsoft recreativo, milsim argentina, paintball alternativo bernal, deportes extremos buenos aires, airsoft zona sur, equipamiento airsoft argentina">
+  <meta name="author" content="SAIGON AIRSOFT">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#D85A20">
+  
+  <!-- Geo Tags -->
+  <meta name="geo.region" content="AR-B">
+  <meta name="geo.placename" content="Bernal, Buenos Aires">
+  <meta name="geo.position" content="-34.71;-58.28">
+  <meta name="ICBM" content="-34.71, -58.28">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://saigonairsoft.com">
+  <meta property="og:title" content="SAIGON AIRSOFT Bernal | Campo de Airsoft Recreativo en Buenos Aires">
+  <meta property="og:description" content="Experimentá el combate táctico más inmersivo en Bernal, Buenos Aires. Paquetes completos, equipamiento profesional y mapas de 5 hectáreas. ¡Reservá tu misión!">
+  <meta property="og:image" content="https://saigonairsoft.com/assets/images/saigonlogo.png">
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:site_name" content="SAIGON AIRSOFT">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://saigonairsoft.com">
+  <meta name="twitter:title" content="SAIGON AIRSOFT Bernal | Airsoft Recreativo Buenos Aires">
+  <meta name="twitter:description" content="Campo de airsoft en Bernal con equipamiento completo, paquetes desde $22.000 y mapas de 5 hectáreas.">
+  <meta name="twitter:image" content="https://saigonairsoft.com/assets/images/saigonlogo.png">
+  
+  <title>SAIGON AIRSOFT Bernal | Campo de Airsoft Recreativo en Buenos Aires</title>
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://saigonairsoft.com">
+  
+  <!-- Structured Data - Local Business -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SportsActivityLocation",
+    "name": "SAIGON AIRSOFT",
+    "image": "https://saigonairsoft.com/assets/images/saigonlogo.png",
+    "description": "Campo de airsoft recreativo en Bernal, Buenos Aires. Combate táctico con equipamiento completo y mapas profesionales de 5 hectáreas.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "8P3Q+J3",
+      "addressLocality": "Bernal",
+      "addressRegion": "Buenos Aires",
+      "postalCode": "1876",
+      "addressCountry": "AR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -34.71,
+      "longitude": -58.28
+    },
+    "url": "https://saigonairsoft.com",
+    "telephone": "+5491159294798",
+    "priceRange": "$$$",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Saturday", "Sunday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      }
+    ],
+    "sameAs": [
+      "https://www.instagram.com/saigon.airsoft/"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "127"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Paquete Recluta",
+        "price": "22000",
+        "priceCurrency": "ARS",
+        "description": "Paquete básico con equipamiento completo y 500 bolas"
+      },
+      {
+        "@type": "Offer",
+        "name": "Paquete Operador",
+        "price": "39600",
+        "priceCurrency": "ARS",
+        "description": "Paquete avanzado con equipo táctico y 1000 bolas"
+      },
+      {
+        "@type": "Offer",
+        "name": "Paquete Spec-Ops",
+        "price": "66000",
+        "priceCurrency": "ARS",
+        "description": "Paquete premium con equipamiento élite y 2000 bolas"
+      }
+    ]
+  }
+  </script>
+  
+  <!-- Google Fonts - Military Style -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Preload critical resources -->
+  <link rel="preload" href="css/styles.css" as="style">
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <!-- Icons (Lucide via CDN) -->
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-container">
+      <div class="navbar-brand">
+        <img src="assets/images/saigonlogo.png" alt="Saigon Airsoft" class="navbar-logo-img">
+        <span class="navbar-status">ONLINE</span>
+      </div>
+      
+      <button class="navbar-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <ul class="navbar-menu" id="navMenu">
+        <li><a href="#hero" data-nav-link>BASE</a></li>
+        <li><a href="#about" data-nav-link>INTEL</a></li>
+        <li><a href="#maps" data-nav-link>ZONAS</a></li>
+        <li><a href="#paquetes" data-nav-link>PAQUETES</a></li>
+        <li><a href="#protocol" data-nav-link>PROTOCOLO</a></li>
+        <li><a href="#ubicacion" data-nav-link>UBICACIÓN</a></li>
+        <li><a href="#reservas" data-nav-link>RESERVAR</a></li>
+      </ul>
+      
+      <button class="navbar-loadout" id="loadoutToggle">
+        <i data-lucide="briefcase" class="icon"></i>
+        <span>LOADOUT</span>
+        <span class="loadout-badge" id="loadoutBadge">0</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Loadout Panel (Carrito Táctico) -->
+  <div class="loadout-panel" id="loadoutPanel">
+    <div class="loadout-header">
+      <div class="loadout-title">
+        <i data-lucide="package" class="icon"></i>
+        <h3>MISSION LOADOUT</h3>
+      </div>
+      <button class="loadout-close" id="loadoutClose">
+        <i data-lucide="x" class="icon"></i>
+      </button>
+    </div>
+    
+    <div class="loadout-status">
+      <div class="loadout-stat">
+        <span class="stat-label">ITEMS</span>
+        <span class="stat-value" id="loadoutCount">0</span>
+      </div>
+      <div class="loadout-stat">
+        <span class="stat-label">TOTAL</span>
+        <span class="stat-value" id="loadoutTotal">$0</span>
+      </div>
+    </div>
+    
+    <div class="loadout-items" id="loadoutItems">
+      <div class="loadout-empty">
+        <i data-lucide="inbox" class="icon"></i>
+        <p>No hay items en tu loadout</p>
+        <small>Agrega paquetes o servicios para comenzar</small>
+      </div>
+    </div>
+    
+    <div class="loadout-footer">
+      <div class="loadout-info">
+        <i data-lucide="info" class="icon"></i>
+        <small>El pedido se enviará por WhatsApp</small>
+      </div>
+      <button class="btn btn-primary" id="sendLoadout" disabled>
+        <i data-lucide="send" class="icon"></i>
+        <span>ENVIAR PEDIDO</span>
+      </button>
+    </div>
+  </div>
+  
+  <div class="loadout-overlay" id="loadoutOverlay"></div>
+
+  <!-- Scanlines Effect -->
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <!-- HUD Frame -->
+  <div class="hud-frame" aria-hidden="true">
+    <div class="hud-top">
+      <div class="hud-coords">
+        <span>LAT: 40.4168° N</span>
+        <span>LON: 3.7038° W</span>
+        <span class="hud-system">SISTEMA: ACTIVO</span>
+      </div>
+      <div class="hud-time">
+        <span id="hudTime">00:00:00 ZULU</span>
+        <span>PROT: MILSIM-ALPHA-9</span>
+      </div>
+    </div>
+    <div class="hud-bottom">
+      <div class="hud-status">
+        <div class="hud-pulse"></div>
+        <span>ENLACE SATELITAL ESTABLE</span>
+      </div>
+      <span>© SAIGON AIRSOFT - SIN RETROCEDER</span>
+    </div>
+  </div>
+
+  <!-- Loading Screen -->
+  <div id="loadingScreen" class="loading-screen">
+    <div class="loading-bar">
+      <div class="loading-progress"></div>
+    </div>
+    <p class="loading-text">Cargando Interfaz de Misión...</p>
+  </div>
+
+  <!-- Main Content -->
+  <main id="mainContent" class="main-content" style="opacity: 0;">
+    
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+      <div class="hero-background">
+        <div class="hero-overlay"></div>
+        <img 
+          src="assets/images/saigon1.png" 
+          alt="Operadores de airsoft en combate táctico - SAIGON AIRSOFT Bernal" 
+          class="hero-image"
+          loading="eager"
+        >
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-badge fade-in">
+          Ubicación Clasificada // Acceso Restringido
+        </div>
+        
+        <h1 class="hero-title scale-in">
+          Saigon <span class="text-accent">Airsoft</span>
+        </h1>
+        
+        <p class="hero-description fade-in-delay">
+          Despliegue inicial: El entrenamiento ha terminado. Prepárate para la simulación táctica más intensa del sector.
+        </p>
+
+        <div class="hero-buttons">
+          <button class="btn btn-primary" data-scroll-to="maps">
+            Iniciar Misión
+          </button>
+          <button class="btn btn-secondary" data-scroll-to="reservas">
+            Reservar Operación
+          </button>
+        </div>
+      </div>
+
+      <div class="scroll-indicator">
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- NARRATIVE SECTION -->
+    <section class="narrative section-padding" id="about">
+      <div class="container">
+        <div class="narrative-grid">
+          <div class="narrative-content">
+            <div class="section-label">
+              <i data-lucide="radio" class="icon"></i>
+              <span>Intel // General</span>
+            </div>
+            
+            <h2 class="section-title">
+              Este no es un juego.<br>
+              <span class="text-accent">Es simulación táctica.</span>
+            </h2>
+            
+            <div class="narrative-text">
+              <p>
+                Operamos bajo estándares de combate real. Nuestro campo de 5 hectáreas ha sido diseñado por expertos en tácticas CQB y guerra forestal para ofrecer una inmersión total.
+              </p>
+              <p>
+                Aquí, el valor individual es secundario. El trabajo en equipo, la comunicación por radio y la ejecución estratégica son las únicas herramientas que garantizan la victoria.
+              </p>
+            </div>
+
+            <div class="features-grid">
+              <div class="feature-card" data-feature="precision">
+                <i data-lucide="target" class="icon"></i>
+                <span>PRECISIÓN</span>
+              </div>
+              <div class="feature-card" data-feature="safety">
+                <i data-lucide="shield-alert" class="icon"></i>
+                <span>SEGURIDAD</span>
+              </div>
+              <div class="feature-card" data-feature="team">
+                <i data-lucide="users" class="icon"></i>
+                <span>EQUIPO</span>
+              </div>
+              <div class="feature-card" data-feature="milsim">
+                <i data-lucide="crosshair" class="icon"></i>
+                <span>MILSIM</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="narrative-image-wrapper">
+            <div class="image-border"></div>
+            <img 
+              src="assets/images/saigon2.png" 
+              alt="Tácticas de equipo en SAIGON AIRSOFT" 
+              class="narrative-image"
+              loading="lazy"
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAQUETES/PRODUCTOS SECTION -->
+    <section class="paquetes section-padding" id="paquetes">
+      <div class="paquetes-parallax"></div>
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label">
+            <i data-lucide="box" class="icon"></i>
+            <span>Arsenal // Disponible</span>
+          </div>
+          <h2 class="section-title">PAQUETES TÁCTICOS</h2>
+          <p class="section-description">Selecciona tu equipamiento y servicios. Cada paquete incluye todo lo necesario para la misión.</p>
+        </div>
+
+        <div class="paquetes-grid">
+          <!-- PAQUETE BÁSICO -->
+          <div class="paquete-card" data-difficulty="beginner">
+            <div class="paquete-badge">BEGINNER</div>
+            <div class="paquete-header">
+              <h3 class="paquete-title">RECLUTA</h3>
+              <div class="paquete-price">
+                <span class="price-amount">$22.000</span>
+                <span class="price-currency">ARS</span>
+                <span class="price-usd">15 USD</span>
+              </div>
+            </div>
+            <ul class="paquete-features">
+              <li><i data-lucide="check" class="icon"></i>Entrada al campo (4h)</li>
+              <li><i data-lucide="check" class="icon"></i>Marcadora básica</li>
+              <li><i data-lucide="check" class="icon"></i>Protección completa</li>
+              <li><i data-lucide="check" class="icon"></i>300 bolas</li>
+              <li><i data-lucide="check" class="icon"></i>Briefing táctico</li>
+            </ul>
+            <button class="btn btn-secondary add-to-loadout" 
+                    data-item-name="Paquete Recluta"
+                    data-item-price="22000"
+                    data-item-price-usd="15"
+                    data-item-type="paquete">
+              <i data-lucide="plus" class="icon"></i>
+              <span>AGREGAR A LOADOUT</span>
+            </button>
+          </div>
+
+          <!-- PAQUETE INTERMEDIO -->
+          <div class="paquete-card featured" data-difficulty="intermediate">
+            <div class="paquete-badge">POPULAR</div>
+            <div class="paquete-header">
+              <h3 class="paquete-title">OPERADOR</h3>
+              <div class="paquete-price">
+                <span class="price-amount">$39.600</span>
+                <span class="price-currency">ARS</span>
+                <span class="price-usd">27 USD</span>
+              </div>
+            </div>
+            <ul class="paquete-features">
+              <li><i data-lucide="check" class="icon"></i>Entrada al campo (día completo)</li>
+              <li><i data-lucide="check" class="icon"></i>Marcadora táctica avanzada</li>
+              <li><i data-lucide="check" class="icon"></i>Protección premium</li>
+              <li><i data-lucide="check" class="icon"></i>1000 bolas</li>
+              <li><i data-lucide="check" class="icon"></i>Radio de comunicación</li>
+              <li><i data-lucide="check" class="icon"></i>Chaleco táctico</li>
+            </ul>
+            <button class="btn btn-primary add-to-loadout"
+                    data-item-name="Paquete Operador"
+                    data-item-price="39600"
+                    data-item-price-usd="27"
+                    data-item-type="paquete">
+              <i data-lucide="plus" class="icon"></i>
+              <span>AGREGAR A LOADOUT</span>
+            </button>
+          </div>
+
+          <!-- PAQUETE PREMIUM -->
+          <div class="paquete-card" data-difficulty="advanced">
+            <div class="paquete-badge">ELITE</div>
+            <div class="paquete-header">
+              <h3 class="paquete-title">SPEC-OPS</h3>
+              <div class="paquete-price">
+                <span class="price-amount">$66.000</span>
+                <span class="price-currency">ARS</span>
+                <span class="price-usd">45 USD</span>
+              </div>
+            </div>
+            <ul class="paquete-features">
+              <li><i data-lucide="check" class="icon"></i>Acceso VIP (día completo)</li>
+              <li><i data-lucide="check" class="icon"></i>Réplica profesional</li>
+              <li><i data-lucide="check" class="icon"></i>Equipamiento completo</li>
+              <li><i data-lucide="check" class="icon"></i>Munición ilimitada</li>
+              <li><i data-lucide="check" class="icon"></i>Radio + auriculares tácticos</li>
+              <li><i data-lucide="check" class="icon"></i>Uniforme MILSIM</li>
+              <li><i data-lucide="check" class="icon"></i>Instructor personal</li>
+            </ul>
+            <button class="btn btn-secondary add-to-loadout"
+                    data-item-name="Paquete Spec-Ops"
+                    data-item-price="66000"
+                    data-item-price-usd="45"
+                    data-item-type="paquete">
+              <i data-lucide="plus" class="icon"></i>
+              <span>AGREGAR A LOADOUT</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- SERVICIOS ADICIONALES -->
+        <div class="servicios-section">
+          <h3 class="servicios-title">SERVICIOS ADICIONALES</h3>
+          <div class="servicios-grid">
+            <div class="servicio-card">
+              <i data-lucide="camera" class="icon"></i>
+              <div class="servicio-info">
+                <h4>Fotografía Táctica</h4>
+                <p>Sesión profesional de combate</p>
+              </div>
+              <div class="servicio-price">$26.400 <small>/ 18 USD</small></div>
+              <button class="btn-icon add-to-loadout"
+                      data-item-name="Fotografía Táctica"
+                      data-item-price="26400"
+                      data-item-price-usd="18"
+                      data-item-type="servicio">
+                <i data-lucide="plus" class="icon"></i>
+              </button>
+            </div>
+            
+            <div class="servicio-card">
+              <i data-lucide="zap" class="icon"></i>
+              <div class="servicio-info">
+                <h4>Bolas Extra</h4>
+                <p>Pack de 1000 unidades</p>
+              </div>
+              <div class="servicio-price">$13.200 <small>/ 9 USD</small></div>
+              <button class="btn-icon add-to-loadout"
+                      data-item-name="Bolas Extra (1000u)"
+                      data-item-price="13200"
+                      data-item-price-usd="9"
+                      data-item-type="servicio">
+                <i data-lucide="plus" class="icon"></i>
+              </button>
+            </div>
+            
+            <div class="servicio-card">
+              <i data-lucide="users" class="icon"></i>
+              <div class="servicio-info">
+                <h4>Evento Privado</h4>
+                <p>Campo exclusivo para tu equipo</p>
+              </div>
+              <div class="servicio-price">$176.000 <small>/ 120 USD</small></div>
+              <button class="btn-icon add-to-loadout"
+                      data-item-name="Evento Privado"
+                      data-item-price="176000"
+                      data-item-price-usd="120"
+                      data-item-type="servicio">
+                <i data-lucide="plus" class="icon"></i>
+              </button>
+            </div>
+            
+            <div class="servicio-card">
+              <i data-lucide="truck" class="icon"></i>
+              <div class="servicio-info">
+                <h4>Transporte</h4>
+                <p>Desde Buenos Aires</p>
+              </div>
+              <div class="servicio-price">$17.600 <small>/ 12 USD</small></div>
+              <button class="btn-icon add-to-loadout"
+                      data-item-name="Transporte"
+                      data-item-price="17600"
+                      data-item-price-usd="12"
+                      data-item-type="servicio">
+                <i data-lucide="plus" class="icon"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAPS SECTION -->
+    <section class="maps" id="maps">
+      <div class="container">
+        <div class="maps-header">
+          <div>
+            <span class="section-label-red">Selector de Zona</span>
+            <h2 class="section-title-large">MAP SELECT</h2>
+          </div>
+          <p class="maps-description">
+            Selecciona el entorno de inserción. Cada zona requiere un equipamiento y estrategia específicos.
+          </p>
+        </div>
+
+        <div class="maps-grid" id="mapsGrid">
+          <!-- Maps will be dynamically generated by TypeScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- PROTOCOL SECTION -->
+    <section class="protocol section-padding" id="protocol">
+      <div class="container">
+        <div class="protocol-parallax"></div>
+        <div class="protocol-box">
+          <div class="protocol-header">
+            <div class="protocol-icon">
+              <i data-lucide="navigation" class="icon"></i>
+            </div>
+            <h2 class="protocol-title">Protocolo de Combate</h2>
+          </div>
+          
+          <div class="protocol-grid">
+            <div class="protocol-section">
+              <h4 class="protocol-subtitle">Equipamiento</h4>
+              <ul class="protocol-list">
+                <li>Protección ocular homologada (ANSI Z87.1)</li>
+                <li>Calzado táctico con soporte de tobillo</li>
+                <li>Radiofrecuencia (Canal 1 de emergencia)</li>
+                <li>Marcadora con potencia &lt; 1.14J</li>
+              </ul>
+            </div>
+
+            <div class="protocol-section">
+              <h4 class="protocol-subtitle">Roles de Misión</h4>
+              <div class="roles-grid">
+                <div class="role-card">Asalto</div>
+                <div class="role-card">Soporte</div>
+                <div class="role-card">Sniper</div>
+                <div class="role-card">Médico</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WARNING SECTION -->
+    <section class="warning" id="warning">
+      <div class="container warning-content">
+        <div class="warning-icon">
+          <i data-lucide="alert-triangle" class="icon"></i>
+        </div>
+        <h2 class="warning-title">¡Atención Operador!</h2>
+        <p class="warning-text">
+          El incumplimiento de las normas de seguridad, la falta de honestidad en los impactos o la conducta antideportiva implican la expulsión inmediata de la zona de operaciones.
+        </p>
+      </div>
+    </section>
+
+    <!-- RESERVATION SECTION -->
+    <section class="reservation section-padding" id="reservas">
+      <div class="reservation-parallax"></div>
+      <div class="container">
+        <div class="reservation-wrapper">
+          <!-- Info Panel -->
+          <div class="reservation-info">
+            <h2 class="reservation-title">
+              Request<br>
+              <span class="text-accent">Mission</span>
+            </h2>
+            
+            <div class="reservation-features">
+              <div class="reservation-feature">
+                <i data-lucide="clock" class="icon"></i>
+                <div>
+                  <p class="feature-label">Respuesta Inteligencia</p>
+                  <p class="feature-value">MENOS DE 2 HORAS</p>
+                </div>
+              </div>
+              <div class="reservation-feature">
+                <i data-lucide="shield-alert" class="icon"></i>
+                <div>
+                  <p class="feature-label">Seguro de Combate</p>
+                  <p class="feature-value">INCLUIDO EN CUOTA</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="reservation-note">
+              <p>
+                * Todas las solicitudes son procesadas por el comando central. Se requiere confirmación vía encriptación (WhatsApp/Email) para validar el despliegue.
+              </p>
+            </div>
+          </div>
+
+          <!-- Form Panel -->
+          <form class="reservation-form" id="reservationForm" novalidate>
+            <div class="form-group">
+              <label for="name">Nombre de Contacto</label>
+              <div class="input-wrapper">
+                <i data-lucide="user" class="input-icon"></i>
+                <input 
+                  type="text" 
+                  id="name" 
+                  name="name" 
+                  placeholder="Tu nombre"
+                  required
+                >
+              </div>
+              <span class="form-error" data-error="name"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="package">Paquete Táctico</label>
+              <div class="input-wrapper">
+                <i data-lucide="box" class="input-icon"></i>
+                <select id="package" name="package" required>
+                  <option value="">Seleccionar paquete</option>
+                  <option value="recluta">Recluta - $22.000 ARS</option>
+                  <option value="operador">Operador - $39.600 ARS</option>
+                  <option value="specops">Spec-Ops - $66.000 ARS</option>
+                </select>
+              </div>
+              <span class="form-error" data-error="package"></span>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="operators">Nº de Operadores</label>
+                <div class="input-wrapper">
+                  <i data-lucide="users" class="input-icon"></i>
+                  <select id="operators" name="operators" required>
+                    <option value="">Cantidad</option>
+                    <option value="1-5">1 a 5 personas</option>
+                    <option value="6-10">6 a 10 personas</option>
+                    <option value="11-20">11 a 20 personas</option>
+                    <option value="21+">Más de 20 personas</option>
+                  </select>
+                </div>
+                <span class="form-error" data-error="operators"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="dayPreference">Día Preferido</label>
+                <div class="input-wrapper">
+                  <i data-lucide="calendar" class="input-icon"></i>
+                  <select id="dayPreference" name="dayPreference" required>
+                    <option value="">Seleccionar día</option>
+                    <option value="sabado">Sábado</option>
+                    <option value="domingo">Domingo</option>
+                    <option value="cualquiera">Cualquiera</option>
+                  </select>
+                </div>
+                <span class="form-error" data-error="dayPreference"></span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="timePreference">Horario Preferido</label>
+              <div class="input-wrapper">
+                <i data-lucide="clock" class="input-icon"></i>
+                <select id="timePreference" name="timePreference" required>
+                  <option value="">Seleccionar horario</option>
+                  <option value="manana">Mañana (09:00 - 13:00)</option>
+                  <option value="tarde">Tarde (13:00 - 18:00)</option>
+                  <option value="dia-completo">Día completo</option>
+                </select>
+              </div>
+              <span class="form-error" data-error="timePreference"></span>
+            </div>
+
+            <div class="form-group">
+              <label>Servicios Adicionales (opcional)</label>
+              <div class="checkbox-group">
+                <label class="checkbox-item">
+                  <input type="checkbox" name="extras" value="fotografia">
+                  <span class="checkbox-custom"></span>
+                  <span class="checkbox-label">Fotografía Profesional (+$26.400)</span>
+                </label>
+                <label class="checkbox-item">
+                  <input type="checkbox" name="extras" value="bolas-extra">
+                  <span class="checkbox-custom"></span>
+                  <span class="checkbox-label">Bolas Extra (+$13.200)</span>
+                </label>
+                <label class="checkbox-item">
+                  <input type="checkbox" name="extras" value="transporte">
+                  <span class="checkbox-custom"></span>
+                  <span class="checkbox-label">Transporte desde Buenos Aires (+$17.600)</span>
+                </label>
+                <label class="checkbox-item">
+                  <input type="checkbox" name="extras" value="evento-privado">
+                  <span class="checkbox-custom"></span>
+                  <span class="checkbox-label">Evento Privado (+$176.000)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Comentarios Adicionales (opcional)</label>
+              <textarea 
+                id="message" 
+                name="message" 
+                placeholder="Detalles adicionales de tu consulta..."
+                rows="4"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-submit">
+              Enviar por WhatsApp
+              <i data-lucide="send" class="icon"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCATION SECTION -->
+    <section class="location section-padding" id="ubicacion">
+      <div class="container">
+        <div class="location-header">
+          <div class="section-label">
+            <i data-lucide="map-pin" class="icon"></i>
+            <span>Coordenadas // Base de Operaciones</span>
+          </div>
+          <h2 class="section-title">PUNTO DE INSERCIÓN</h2>
+          <p class="section-description">
+            Nuestra base de operaciones se encuentra en una ubicación estratégica con fácil acceso desde Buenos Aires.
+          </p>
+        </div>
+
+        <div class="location-grid">
+          <div class="location-info">
+            <div class="info-card">
+              <i data-lucide="map-pin" class="icon"></i>
+              <div>
+                <h4>Dirección</h4>
+                <p>8P3Q+J3, Bernal<br>Provincia de Buenos Aires</p>
+              </div>
+            </div>
+            
+            <div class="info-card">
+              <i data-lucide="navigation" class="icon"></i>
+              <div>
+                <h4>Acceso</h4>
+                <p>Fácil acceso desde autopista<br>Estacionamiento disponible</p>
+              </div>
+            </div>
+            
+            <div class="info-card">
+              <i data-lucide="clock" class="icon"></i>
+              <div>
+                <h4>Horarios</h4>
+                <p>Sábados y Domingos<br>09:00 - 18:00 HS</p>
+              </div>
+            </div>
+            
+            <a href="https://www.google.com/maps/search/?api=1&query=8P3Q+J3,+Bernal,+Provincia+de+Buenos+Aires" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="btn btn-primary location-btn">
+              <i data-lucide="external-link" class="icon"></i>
+              <span>ABRIR EN GOOGLE MAPS</span>
+            </a>
+          </div>
+          
+          <div class="location-map">
+            <iframe 
+              src="https://www.google.com/maps?q=8P3Q+J3,+Bernal,+Provincia+de+Buenos+Aires&output=embed"
+              width="100%" 
+              height="450" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Ubicación Saigon Airsoft - 8P3Q+J3, Bernal, Provincia de Buenos Aires">
+            </iframe>
+            <div class="map-overlay">
+              <div class="map-badge">
+                <i data-lucide="target" class="icon"></i>
+                <span>ZONA CALIENTE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="footer">
+      <div class="container footer-content">
+        
+        <h2 class="footer-title">¿Estás Preparado?</h2>
+        <p class="footer-subtitle">La misión no espera a los indecisos.</p>
+        
+        <nav class="footer-links" aria-label="Redes sociales">
+          <a href="https://www.instagram.com/saigon.airsoft/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">TikTok</a>
+          <a href="https://wa.me/5491159294798" target="_blank" rel="noopener noreferrer">WhatsApp Comando</a>
+        </nav>
+
+        <div class="footer-brand">
+          <div class="footer-divider"></div>
+          <span class="footer-copyright">IDENTIDAD: SAIGON AIRSOFT OPS // 2026</span>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- Quick Loading Fix - Inline JavaScript -->
+  <script>
+    // Quick fix para la pantalla de carga
+    setTimeout(() => {
+      const loadingScreen = document.getElementById('loadingScreen');
+      const mainContent = document.getElementById('mainContent');
+      
+      if (loadingScreen && mainContent) {
+        loadingScreen.classList.add('hidden');
+        setTimeout(() => {
+          mainContent.style.opacity = '1';
+          mainContent.classList.add('visible');
+          
+          // Initialize Lucide icons
+          if (typeof lucide !== 'undefined') {
+            lucide.createIcons();
+          }
+          
+          // Remove loading screen
+          setTimeout(() => loadingScreen.remove(), 700);
+        }, 300);
+      }
+    }, 800);
+
+    // HUD Time Update
+    function updateHUDTime() {
+      const timeElement = document.getElementById('hudTime');
+      if (timeElement) {
+        const now = new Date();
+        const hours = String(now.getHours()).padStart(2, '0');
+        const minutes = String(now.getMinutes()).padStart(2, '0');
+        const seconds = String(now.getSeconds()).padStart(2, '0');
+        timeElement.textContent = `${hours}:${minutes}:${seconds} ZULU`;
+      }
+    }
+    updateHUDTime();
+    setInterval(updateHUDTime, 1000);
+
+    // Smooth Scroll Buttons
+    document.addEventListener('DOMContentLoaded', () => {
+      const scrollButtons = document.querySelectorAll('[data-scroll-to]');
+      scrollButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          const targetId = button.getAttribute('data-scroll-to');
+          const target = document.getElementById(targetId);
+          if (target) {
+            const offset = 80;
+            const elementPosition = target.getBoundingClientRect().top + window.pageYOffset;
+            window.scrollTo({
+              top: elementPosition - offset,
+              behavior: 'smooth'
+            });
+          }
+        });
+      });
+
+      // Enhanced button effects
+      document.querySelectorAll('.btn').forEach(btn => {
+        btn.addEventListener('click', function(e) {
+          const ripple = document.createElement('span');
+          const rect = this.getBoundingClientRect();
+          const size = Math.max(rect.width, rect.height);
+          const x = e.clientX - rect.left - size / 2;
+          const y = e.clientY - rect.top - size / 2;
+          
+          ripple.style.cssText = `
+            position: absolute;
+            width: ${size}px;
+            height: ${size}px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.5);
+            left: ${x}px;
+            top: ${y}px;
+            pointer-events: none;
+            animation: ripple 0.6s ease-out;
+          `;
+          
+          this.appendChild(ripple);
+          setTimeout(() => ripple.remove(), 600);
+        });
+      });
+
+      // Add ripple animation
+      const style = document.createElement('style');
+      style.textContent = `
+        @keyframes ripple {
+          to {
+            transform: scale(4);
+            opacity: 0;
+          }
+        }
+      `;
+      document.head.appendChild(style);
+
+      // Generate Maps
+      const mapsGrid = document.getElementById('mapsGrid');
+      if (mapsGrid) {
+        const maps = [
+          {
+            id: 'zone-alpha',
+            name: 'Zone Alpha',
+            image: 'assets/images/zonealpha.png',
+            difficulty: 'Extreme',
+            capacity: '12-24',
+            tags: ['CQB', 'URBAN'],
+            description: 'Complejo industrial con múltiples niveles y puntos de emboscada.'
+          },
+          {
+            id: 'urban-strike',
+            name: 'Urban Strike',
+            image: 'assets/images/urbanstrike.png',
+            difficulty: 'Medium',
+            capacity: '20-40',
+            tags: ['VEHICLES', 'SQUAD'],
+            description: 'Réplica de centro urbano con calles estrechas y cobertura pesada.'
+          },
+          {
+            id: 'forest-ops',
+            name: 'Forest Ops',
+            image: 'assets/images/forestops.png',
+            difficulty: 'Hard',
+            capacity: '10-50',
+            tags: ['SNIPER', 'STEALTH'],
+            description: 'Bosque denso ideal para flanqueo y operaciones de largo alcance.'
+          }
+        ];
+
+        maps.forEach(map => {
+          const tagsHTML = map.tags.map(tag => `<span class="map-tag">${tag}</span>`).join('');
+          const card = document.createElement('div');
+          card.className = 'map-card';
+          card.innerHTML = `
+            <img src="${map.image}" alt="${map.name}" class="map-card-image" loading="lazy">
+            <div class="map-card-overlay"></div>
+            <div class="map-card-border"></div>
+            <div class="map-card-content">
+              <div class="map-card-header">
+                <div>
+                  <span class="map-card-label">ZONA DE OPERACIÓN</span>
+                  <h3 class="map-card-title">${map.name}</h3>
+                </div>
+                <div class="map-card-stats">
+                  <span>DIF: ${map.difficulty}</span>
+                  <span>OPs: ${map.capacity}</span>
+                </div>
+              </div>
+              <div class="map-card-details">
+                <p class="map-card-description">${map.description}</p>
+                <div class="map-card-tags">${tagsHTML}</div>
+              </div>
+            </div>
+          `;
+          mapsGrid.appendChild(card);
+        });
+      }
+
+      // Form Validation & WhatsApp Integration
+      const form = document.getElementById('reservationForm');
+      if (form) {
+        form.addEventListener('submit', (e) => {
+          e.preventDefault();
+          
+          const name = form.querySelector('input[name="name"]').value.trim();
+          const packageSelected = form.querySelector('select[name="package"]').value;
+          const operators = form.querySelector('select[name="operators"]').value;
+          const dayPreference = form.querySelector('select[name="dayPreference"]').value;
+          const timePreference = form.querySelector('select[name="timePreference"]').value;
+          const message = form.querySelector('textarea[name="message"]').value.trim();
+          
+          // Get selected extras
+          const extrasCheckboxes = form.querySelectorAll('input[name="extras"]:checked');
+          const extras = Array.from(extrasCheckboxes).map(cb => {
+            const labels = {
+              'fotografia': 'Fotografía Profesional (+$26.400)',
+              'bolas-extra': 'Bolas Extra (+$13.200)',
+              'transporte': 'Transporte desde Buenos Aires (+$17.600)',
+              'evento-privado': 'Evento Privado (+$176.000)'
+            };
+            return labels[cb.value];
+          });
+
+          let isValid = true;
+          const errors = [];
+
+          // Validate required fields
+          if (!name) {
+            errors.push('Por favor, ingresa tu nombre');
+            isValid = false;
+          }
+          
+          if (!packageSelected) {
+            errors.push('Por favor, selecciona un paquete táctico');
+            isValid = false;
+          }
+
+          if (!operators) {
+            errors.push('Por favor, indica el número de operadores');
+            isValid = false;
+          }
+
+          if (!dayPreference) {
+            errors.push('Por favor, selecciona un día preferido');
+            isValid = false;
+          }
+
+          if (!timePreference) {
+            errors.push('Por favor, selecciona un horario preferido');
+            isValid = false;
+          }
+
+          if (!isValid) {
+            alert('⚠️ FALTAN DATOS\n\n' + errors.join('\n'));
+            return;
+          }
+
+          // Build WhatsApp message
+          const packageNames = {
+            'recluta': 'Recluta - $22.000 ARS',
+            'operador': 'Operador - $39.600 ARS',
+            'specops': 'Spec-Ops - $66.000 ARS'
+          };
+
+          const dayNames = {
+            'sabado': 'Sábado',
+            'domingo': 'Domingo',
+            'cualquiera': 'Cualquier día'
+          };
+
+          const timeNames = {
+            'manana': 'Mañana (09:00 - 13:00)',
+            'tarde': 'Tarde (13:00 - 18:00)',
+            'dia-completo': 'Día completo'
+          };
+
+          let whatsappMessage = `🎯 *SOLICITUD DE RESERVA - SAIGON AIRSOFT*\n\n`;
+          whatsappMessage += `👤 *Nombre:* ${name}\n`;
+          whatsappMessage += `📦 *Paquete:* ${packageNames[packageSelected]}\n`;
+          whatsappMessage += `👥 *Operadores:* ${operators}\n`;
+          whatsappMessage += `📅 *Día preferido:* ${dayNames[dayPreference]}\n`;
+          whatsappMessage += `🕐 *Horario preferido:* ${timeNames[timePreference]}\n`;
+          
+          if (extras.length > 0) {
+            whatsappMessage += `\n✨ *Servicios adicionales:*\n`;
+            extras.forEach(extra => {
+              whatsappMessage += `• ${extra}\n`;
+            });
+          }
+          
+          if (message) {
+            whatsappMessage += `\n💬 *Comentarios:*\n${message}\n`;
+          }
+
+          whatsappMessage += `\n_Consulta realizada desde saigonairsoft.com_`;
+
+          // Encode and send to WhatsApp
+          const phoneNumber = '5491159294798';
+          const encodedMessage = encodeURIComponent(whatsappMessage);
+          const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+          
+          window.open(whatsappURL, '_blank');
+          
+          // Reset form
+          form.reset();
+        });
+      }
+    });
+
+    // ========== NAVBAR FUNCTIONALITY ==========
+    const navbar = document.getElementById('navbar');
+    const navToggle = document.getElementById('navToggle');
+    const navMenu = document.getElementById('navMenu');
+    const navLinks = document.querySelectorAll('[data-nav-link]');
+    
+    // Toggle mobile menu
+    if (navToggle && navMenu) {
+      navToggle.addEventListener('click', () => {
+        navToggle.classList.toggle('active');
+        navMenu.classList.toggle('active');
+      });
+      
+      // Close menu when clicking on a link
+      navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          navToggle.classList.remove('active');
+          navMenu.classList.remove('active');
+        });
+      });
+    }
+    
+    // Navbar scroll behavior
+    let lastScroll = 0;
+    window.addEventListener('scroll', () => {
+      const currentScroll = window.pageYOffset;
+      
+      if (currentScroll > 100) {
+        if (currentScroll > lastScroll) {
+          navbar.classList.add('hidden');
+        } else {
+          navbar.classList.remove('hidden');
+        }
+      } else {
+        navbar.classList.remove('hidden');
+      }
+      
+      lastScroll = currentScroll;
+      
+      // Active link based on scroll position
+      const sections = document.querySelectorAll('section[id]');
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 100;
+        const sectionHeight = section.offsetHeight;
+        const scrollPos = window.scrollY;
+        
+        if (scrollPos >= sectionTop && scrollPos < sectionTop + sectionHeight) {
+          navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === `#${section.id}`) {
+              link.classList.add('active');
+            }
+          });
+        }
+      });
+    });
+    
+    // Smooth scroll for nav links
+    navLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetId = link.getAttribute('href').substring(1);
+        const target = document.getElementById(targetId);
+        if (target) {
+          const offset = 80;
+          const elementPosition = target.getBoundingClientRect().top + window.pageYOffset;
+          window.scrollTo({
+            top: elementPosition - offset,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+
+    // ========== LOADOUT PANEL FUNCTIONALITY ==========
+    const loadoutPanel = document.getElementById('loadoutPanel');
+    const loadoutToggle = document.getElementById('loadoutToggle');
+    const loadoutClose = document.getElementById('loadoutClose');
+    const loadoutOverlay = document.getElementById('loadoutOverlay');
+    const loadoutItems = document.getElementById('loadoutItems');
+    const loadoutCount = document.getElementById('loadoutCount');
+    const loadoutTotal = document.getElementById('loadoutTotal');
+    const loadoutBadge = document.getElementById('loadoutBadge');
+    const sendLoadout = document.getElementById('sendLoadout');
+    
+    // Loadout state
+    let loadout = [];
+    
+    // Toggle loadout panel
+    function toggleLoadout() {
+      loadoutPanel.classList.toggle('active');
+      loadoutOverlay.classList.toggle('active');
+      document.body.style.overflow = loadoutPanel.classList.contains('active') ? 'hidden' : '';
+    }
+    
+    if (loadoutToggle) {
+      loadoutToggle.addEventListener('click', toggleLoadout);
+    }
+    
+    if (loadoutClose) {
+      loadoutClose.addEventListener('click', toggleLoadout);
+    }
+    
+    if (loadoutOverlay) {
+      loadoutOverlay.addEventListener('click', toggleLoadout);
+    }
+    
+    // Update loadout UI
+    function updateLoadout() {
+      const totalItems = loadout.reduce((sum, item) => sum + item.quantity, 0);
+      const totalPrice = loadout.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+      const totalPriceUSD = loadout.reduce((sum, item) => sum + (item.priceUSD * item.quantity), 0);
+      
+      loadoutCount.textContent = totalItems;
+      loadoutTotal.textContent = `$${totalPrice.toLocaleString('es-AR')}`;
+      loadoutBadge.textContent = totalItems;
+      
+      if (totalItems > 0) {
+        sendLoadout.disabled = false;
+        loadoutItems.innerHTML = loadout.map(item => `
+          <div class="loadout-item" data-item-id="${item.id}">
+            <div class="loadout-item-info">
+              <div class="loadout-item-name">${item.name}</div>
+              <div class="loadout-item-type">${item.type}</div>
+            </div>
+            <div class="loadout-item-controls">
+              <div class="loadout-item-qty">
+                <button class="qty-btn qty-decrease" data-item-id="${item.id}">
+                  <i data-lucide="minus" class="icon"></i>
+                </button>
+                <span class="qty-value">${item.quantity}</span>
+                <button class="qty-btn qty-increase" data-item-id="${item.id}">
+                  <i data-lucide="plus" class="icon"></i>
+                </button>
+              </div>
+              <div class="loadout-item-price">$${(item.price * item.quantity).toLocaleString('es-AR')}</div>
+              <button class="loadout-item-remove" data-item-id="${item.id}">
+                <i data-lucide="trash-2" class="icon"></i>
+              </button>
+            </div>
+          </div>
+        `).join('');
+        
+        // Re-initialize Lucide icons
+        if (typeof lucide !== 'undefined') {
+          lucide.createIcons();
+        }
+        
+        // Add event listeners to quantity buttons
+        document.querySelectorAll('.qty-decrease').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const itemId = btn.getAttribute('data-item-id');
+            decreaseQuantity(itemId);
+          });
+        });
+        
+        document.querySelectorAll('.qty-increase').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const itemId = btn.getAttribute('data-item-id');
+            increaseQuantity(itemId);
+          });
+        });
+        
+        document.querySelectorAll('.loadout-item-remove').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const itemId = btn.getAttribute('data-item-id');
+            removeFromLoadout(itemId);
+          });
+        });
+      } else {
+        sendLoadout.disabled = true;
+        loadoutItems.innerHTML = `
+          <div class="loadout-empty">
+            <i data-lucide="inbox" class="icon"></i>
+            <p>No hay items en tu loadout</p>
+            <small>Agrega paquetes o servicios para comenzar</small>
+          </div>
+        `;
+        
+        if (typeof lucide !== 'undefined') {
+          lucide.createIcons();
+        }
+      }
+    }
+    
+    // Add to loadout
+    function addToLoadout(name, price, priceUSD, type) {
+      const itemId = name.toLowerCase().replace(/\s+/g, '-');
+      const existingItem = loadout.find(item => item.id === itemId);
+      
+      if (existingItem) {
+        existingItem.quantity++;
+      } else {
+        loadout.push({
+          id: itemId,
+          name,
+          price: parseFloat(price),
+          priceUSD: parseFloat(priceUSD),
+          type,
+          quantity: 1
+        });
+      }
+      
+      updateLoadout();
+      
+      // Show feedback
+      const btn = event.target.closest('button');
+      const originalText = btn.innerHTML;
+      btn.innerHTML = '<i data-lucide="check" class="icon"></i><span>AGREGADO</span>';
+      if (typeof lucide !== 'undefined') {
+        lucide.createIcons();
+      }
+      setTimeout(() => {
+        btn.innerHTML = originalText;
+        if (typeof lucide !== 'undefined') {
+          lucide.createIcons();
+        }
+      }, 1000);
+    }
+    
+    // Increase quantity
+    function increaseQuantity(itemId) {
+      const item = loadout.find(i => i.id === itemId);
+      if (item) {
+        item.quantity++;
+        updateLoadout();
+      }
+    }
+    
+    // Decrease quantity
+    function decreaseQuantity(itemId) {
+      const item = loadout.find(i => i.id === itemId);
+      if (item) {
+        item.quantity--;
+        if (item.quantity <= 0) {
+          removeFromLoadout(itemId);
+        } else {
+          updateLoadout();
+        }
+      }
+    }
+    
+    // Remove from loadout
+    function removeFromLoadout(itemId) {
+      loadout = loadout.filter(item => item.id !== itemId);
+      updateLoadout();
+    }
+    
+    // Add to loadout buttons
+    document.querySelectorAll('.add-to-loadout').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const name = btn.getAttribute('data-item-name');
+        const price = btn.getAttribute('data-item-price');
+        const priceUSD = btn.getAttribute('data-item-price-usd');
+        const type = btn.getAttribute('data-item-type');
+        addToLoadout(name, price, priceUSD, type);
+      });
+    });
+    
+    // Send loadout via WhatsApp
+    if (sendLoadout) {
+      sendLoadout.addEventListener('click', () => {
+        const totalPrice = loadout.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+        const totalPriceUSD = loadout.reduce((sum, item) => sum + (item.priceUSD * item.quantity), 0);
+        
+        let message = '🎯 *MISSION LOADOUT - SAIGON AIRSOFT*\n\n';
+        message += '📦 *ITEMS SOLICITADOS:*\n\n';
+        
+        loadout.forEach(item => {
+          message += `▫️ ${item.name}\n`;
+          message += `   Cantidad: ${item.quantity}\n`;
+          message += `   Precio: $${(item.price * item.quantity).toLocaleString('es-AR')} ARS / ${item.priceUSD * item.quantity} USD\n\n`;
+        });
+        
+        message += `💰 *TOTAL: $${totalPrice.toLocaleString('es-AR')} ARS / ${totalPriceUSD} USD*\n\n`;
+        message += '📅 Solicito información sobre disponibilidad y reserva.';
+        
+        const whatsappNumber = '5491159294798'; // +54 9 11 5929-4798
+        const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+        
+        window.open(whatsappURL, '_blank');
+      });
+    }
+    
+    // Initialize loadout on page load
+    updateLoadout();
+  </script>
+
+  <!-- TypeScript Modules (Para futuro con compilación) -->
+  <!-- <script type="module" src="ts/main.ts"></script> -->
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "area51-airsoft",
+  "version": "2.0.0",
+  "description": "Sitio web táctico de Area 51 Airsoft con TypeScript",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": ["airsoft", "milsim", "tactical", "typescript"],
+  "author": "Area 51 Airsoft",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vite": "^5.0.0"
+  }
+}
