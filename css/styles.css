@@ -1192,7 +1192,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../assets/images/saigon3.png');
+  background-image: url('/assets/images/saigon3.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -1930,7 +1930,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../assets/images/saigon5.png');
+  background-image: url('/assets/images/saigon5.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -2223,7 +2223,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../assets/images/saigon6.png');
+  background-image: url('/assets/images/saigon6.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
